@@ -892,7 +892,7 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 193,
+                "x": 192,
                 "y": -64,
                 "z": 0
             },
@@ -944,8 +944,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 619,
-                "y": 35,
+                "x": 618,
+                "y": 36,
                 "z": 0
             },
             {
@@ -1235,7 +1235,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5023,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
