@@ -1,0 +1,83 @@
+Jun 18 14:37:54.943 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+Jun 18 14:37:54.943 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40449.
+Jun 18 14:37:54.951 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 18 14:37:54.952 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips 
+Jun 18 14:37:54.952 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips
+Jun 18 14:37:54.952 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c2121abe-f0d1-4c2b-a395-598bd246d31d 
+Jun 18 14:37:54.952 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c2121abe-f0d1-4c2b-a395-598bd246d31d
+Jun 18 14:37:54.952 HYPERVISOR: exec_cmd: vm create Oporto 2 c3725 
+Jun 18 14:37:54.953 VM: VM Oporto created.
+Jun 18 14:37:54.953 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oporto 5001 
+Jun 18 14:37:54.953 HYPERVISOR: exec_cmd: c3725 get_mac_addr Oporto 
+Jun 18 14:37:54.953 HYPERVISOR: exec_cmd: vm set_disk0 Oporto 0 
+Jun 18 14:37:54.953 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:54.954 HYPERVISOR: exec_cmd: vm set_idle_pc Oporto 0x60a68ca0 
+Jun 18 14:37:54.954 HYPERVISOR: exec_cmd: vm set_ios Oporto /home/diogojorge/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 18 14:37:54.954 HYPERVISOR: exec_cmd: c3725 set_mac_addr Oporto c202.1702.0000 
+Jun 18 14:37:54.954 HYPERVISOR: exec_cmd: vm set_nvram Oporto 256 
+Jun 18 14:37:54.954 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:54.955 HYPERVISOR: exec_cmd: vm slot_add_binding Oporto 1 0 NM-1FE-TX 
+Jun 18 14:37:54.955 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:54.955 HYPERVISOR: exec_cmd: vm slot_add_binding Oporto 2 0 NM-1FE-TX 
+Jun 18 14:37:55.482 HYPERVISOR: exec_cmd: nio create_udp udp-af2e16d7-27cb-465e-94af-7b164c63d679 10010 127.0.0.1 10011 
+Jun 18 14:37:55.698 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 0 0 udp-af2e16d7-27cb-465e-94af-7b164c63d679 
+Jun 18 14:37:55.700 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:55.761 HYPERVISOR: exec_cmd: nio create_udp udp-669c5c17-6e10-426b-8754-2e919655ca19 10014 127.0.0.1 10015 
+Jun 18 14:37:55.763 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 0 1 udp-669c5c17-6e10-426b-8754-2e919655ca19 
+Jun 18 14:37:55.763 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:55.818 HYPERVISOR: exec_cmd: nio create_udp udp-4d365e27-ade0-439f-9dd5-c00b88d914ad 10020 127.0.0.1 10021 
+Jun 18 14:37:55.819 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 1 0 udp-4d365e27-ade0-439f-9dd5-c00b88d914ad 
+Jun 18 14:37:55.819 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:37:56.215 HYPERVISOR: exec_cmd: nio create_udp udp-43086efa-291a-4a96-8923-c2f388a58054 10032 127.0.0.1 10033 
+Jun 18 14:37:56.216 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 2 0 udp-43086efa-291a-4a96-8923-c2f388a58054 
+Jun 18 14:37:56.216 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:16.089 HYPERVISOR: exec_cmd: vm set_ghost_status Oporto 2 
+Jun 18 14:38:16.091 HYPERVISOR: exec_cmd: vm set_ghost_file Oporto /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:38:16.092 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:16.094 HYPERVISOR: exec_cmd: vm set_config Oporto configs/i2_startup-config.cfg 
+Jun 18 14:38:16.095 HYPERVISOR: exec_cmd: vm start Oporto 
+Jun 18 14:38:34.242 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:34.242 HYPERVISOR: exec_cmd: vm set_idle_pc_online Oporto 0 0x0 
+Jun 18 14:38:34.242 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:34.243 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:34.243 HYPERVISOR: exec_cmd: vm get_idle_pc_prop Oporto 0 
+Jun 18 14:38:44.333 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:44.333 HYPERVISOR: exec_cmd: vm set_idle_pc_online Oporto 0 0x60a68e70 
+Jun 18 14:38:44.333 HYPERVISOR: exec_cmd: vm cpu_usage Oporto 0 
+Jun 18 14:38:47.378 HYPERVISOR: exec_cmd: vm cpu_usage Oporto 0 
+Jun 18 14:38:55.693 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:38:55.696 HYPERVISOR: exec_cmd: vm stop Oporto 
+Jun 18 14:38:55.864 VM: VM Oporto shutdown.
+Jun 18 14:38:55.865 HYPERVISOR: exec_cmd: vm extract_config Oporto 
+Jun 18 14:52:35.005 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:52:35.006 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Oporto 2 0 
+Jun 18 14:52:35.007 HYPERVISOR: exec_cmd: nio delete udp-43086efa-291a-4a96-8923-c2f388a58054 
+Jun 18 14:52:45.840 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:52:45.841 HYPERVISOR: exec_cmd: vm slot_remove_binding Oporto 2 0 
+Jun 18 14:52:45.842 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:52:45.843 HYPERVISOR: exec_cmd: vm slot_add_binding Oporto 2 0 NM-16ESW 
+Jun 18 14:52:59.930 HYPERVISOR: exec_cmd: nio create_udp udp-6ed92b4e-00bf-4758-84ca-341505870db9 10032 127.0.0.1 10033 
+Jun 18 14:52:59.932 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 2 0 udp-6ed92b4e-00bf-4758-84ca-341505870db9 
+Jun 18 14:52:59.932 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:53:04.120 HYPERVISOR: exec_cmd: nio create_udp udp-99bfb7cb-e6ae-4c52-bbdc-b3d82bd55812 10096 127.0.0.1 10097 
+Jun 18 14:53:04.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oporto 2 1 udp-99bfb7cb-e6ae-4c52-bbdc-b3d82bd55812 
+Jun 18 14:53:04.122 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:53:13.593 HYPERVISOR: exec_cmd: vm set_ios Oporto /home/diogojorge/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 18 14:55:58.016 HYPERVISOR: exec_cmd: vm set_ghost_status Oporto 2 
+Jun 18 14:55:58.018 HYPERVISOR: exec_cmd: vm set_ghost_file Oporto /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:55:58.018 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 14:55:58.019 HYPERVISOR: exec_cmd: vm set_config Oporto configs/i2_startup-config.cfg 
+Jun 18 14:55:58.019 HYPERVISOR: exec_cmd: vm start Oporto 
+Jun 18 16:38:17.314 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 16:38:17.318 HYPERVISOR: exec_cmd: vm stop Oporto 
+Jun 18 16:38:17.471 VM: VM Oporto shutdown.
+Jun 18 16:38:17.472 HYPERVISOR: exec_cmd: vm extract_config Oporto 
+Jun 18 19:35:05.529 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 19:35:05.531 HYPERVISOR: exec_cmd: vm extract_config Oporto 
+Jun 18 19:35:05.980 HYPERVISOR: exec_cmd: vm get_status Oporto 
+Jun 18 19:35:05.982 HYPERVISOR: exec_cmd: vm extract_config Oporto 
+Jun 18 19:35:05.985 HYPERVISOR: exec_cmd: vm delete Oporto 
+Jun 18 19:35:05.985 VM: VM Oporto destroyed.
+Jun 18 19:35:05.987 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 18 19:35:06.089 HYPERVISOR: Stopped.
+Jun 18 19:35:06.089 GENERAL: reset done.

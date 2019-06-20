@@ -1,0 +1,76 @@
+Jun 18 14:37:54.967 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+Jun 18 14:37:54.967 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51627.
+Jun 18 14:37:54.976 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 18 14:37:54.976 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips 
+Jun 18 14:37:54.977 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips
+Jun 18 14:37:54.977 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c60654de-ff3d-481f-a16a-8777cefc71f0 
+Jun 18 14:37:54.977 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c60654de-ff3d-481f-a16a-8777cefc71f0
+Jun 18 14:37:54.977 HYPERVISOR: exec_cmd: vm create Lisbon 3 c3725 
+Jun 18 14:37:54.977 VM: VM Lisbon created.
+Jun 18 14:37:54.977 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisbon 5002 
+Jun 18 14:37:54.977 HYPERVISOR: exec_cmd: c3725 get_mac_addr Lisbon 
+Jun 18 14:37:54.978 HYPERVISOR: exec_cmd: vm set_disk0 Lisbon 0 
+Jun 18 14:37:54.978 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:54.978 HYPERVISOR: exec_cmd: vm set_idle_pc Lisbon 0x60a68ca0 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: vm set_ios Lisbon /home/diogojorge/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: c3725 set_mac_addr Lisbon c203.1711.0000 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: vm set_nvram Lisbon 256 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: vm slot_add_binding Lisbon 1 0 NM-1FE-TX 
+Jun 18 14:37:54.979 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:54.980 HYPERVISOR: exec_cmd: vm slot_add_binding Lisbon 2 0 NM-1FE-TX 
+Jun 18 14:37:55.860 HYPERVISOR: exec_cmd: nio create_udp udp-85e12b6a-ee2c-44e9-a18f-210d5b93e5f6 10024 127.0.0.1 10025 
+Jun 18 14:37:56.078 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisbon 0 1 udp-85e12b6a-ee2c-44e9-a18f-210d5b93e5f6 
+Jun 18 14:37:56.079 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:56.169 HYPERVISOR: exec_cmd: nio create_udp udp-9575447c-496a-405b-ba09-0c8ba9d6b7c0 10028 127.0.0.1 10029 
+Jun 18 14:37:56.170 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisbon 1 0 udp-9575447c-496a-405b-ba09-0c8ba9d6b7c0 
+Jun 18 14:37:56.170 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:57.076 HYPERVISOR: exec_cmd: nio create_udp udp-12207ce9-363d-422e-a9ea-483f3a87c0a2 10050 127.0.0.1 10051 
+Jun 18 14:37:57.077 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisbon 2 0 udp-12207ce9-363d-422e-a9ea-483f3a87c0a2 
+Jun 18 14:37:57.077 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:37:57.260 HYPERVISOR: exec_cmd: nio create_udp udp-997af5d0-f5d2-4640-9ef7-0e07c4414a92 10074 127.0.0.1 10075 
+Jun 18 14:37:57.261 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisbon 0 0 udp-997af5d0-f5d2-4640-9ef7-0e07c4414a92 
+Jun 18 14:37:57.262 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:38:15.645 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 18 14:38:15.645 VM: VM Ghost created.
+Jun 18 14:38:15.646 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/diogojorge/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 18 14:38:15.646 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 18 14:38:15.647 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:38:15.647 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 18 14:38:15.655 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 18 14:38:15.656 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 18 14:38:15.966 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 18 14:38:15.966 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 18 14:38:16.076 VM: VM Ghost shutdown.
+Jun 18 14:38:16.077 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 18 14:38:16.079 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 18 14:38:16.080 VM: VM Ghost destroyed.
+Jun 18 14:38:16.085 HYPERVISOR: exec_cmd: vm set_ghost_status Lisbon 2 
+Jun 18 14:38:16.086 HYPERVISOR: exec_cmd: vm set_ghost_file Lisbon /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:38:16.088 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:38:16.090 HYPERVISOR: exec_cmd: vm set_config Lisbon configs/i3_startup-config.cfg 
+Jun 18 14:38:16.092 HYPERVISOR: exec_cmd: vm start Lisbon 
+Jun 18 14:38:47.507 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:38:47.543 HYPERVISOR: exec_cmd: vm set_idle_pc_online Lisbon 0 0x60a68e70 
+Jun 18 14:38:55.694 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:38:55.696 HYPERVISOR: exec_cmd: vm stop Lisbon 
+Jun 18 14:38:55.866 VM: VM Lisbon shutdown.
+Jun 18 14:38:55.867 HYPERVISOR: exec_cmd: vm extract_config Lisbon 
+Jun 18 14:55:58.019 HYPERVISOR: exec_cmd: vm set_ghost_status Lisbon 2 
+Jun 18 14:55:58.020 HYPERVISOR: exec_cmd: vm set_ghost_file Lisbon /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:55:58.020 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 14:55:58.021 HYPERVISOR: exec_cmd: vm set_config Lisbon configs/i3_startup-config.cfg 
+Jun 18 14:55:58.021 HYPERVISOR: exec_cmd: vm start Lisbon 
+Jun 18 16:38:17.317 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 16:38:17.318 HYPERVISOR: exec_cmd: vm stop Lisbon 
+Jun 18 16:38:17.438 VM: VM Lisbon shutdown.
+Jun 18 16:38:17.439 HYPERVISOR: exec_cmd: vm extract_config Lisbon 
+Jun 18 19:35:05.530 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 19:35:05.531 HYPERVISOR: exec_cmd: vm extract_config Lisbon 
+Jun 18 19:35:05.636 HYPERVISOR: exec_cmd: vm get_status Lisbon 
+Jun 18 19:35:05.637 HYPERVISOR: exec_cmd: vm extract_config Lisbon 
+Jun 18 19:35:05.639 HYPERVISOR: exec_cmd: vm delete Lisbon 
+Jun 18 19:35:05.639 VM: VM Lisbon destroyed.
+Jun 18 19:35:05.640 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 18 19:35:06.114 HYPERVISOR: Stopped.
+Jun 18 19:35:06.114 GENERAL: reset done.

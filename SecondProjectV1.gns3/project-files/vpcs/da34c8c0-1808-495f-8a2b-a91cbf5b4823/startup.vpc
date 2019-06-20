@@ -1,9 +1,2 @@
-# This the configuration for CompanyA@Porto
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname CompanyA@Porto
+ip 81.100.1.2 81.100.1.1 26
+ip 2001:81:1::2/48

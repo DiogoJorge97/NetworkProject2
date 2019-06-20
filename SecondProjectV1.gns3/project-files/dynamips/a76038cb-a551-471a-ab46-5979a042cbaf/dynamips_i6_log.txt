@@ -1,0 +1,59 @@
+Jun 18 14:37:55.019 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+Jun 18 14:37:55.019 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52289.
+Jun 18 14:37:55.029 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 18 14:37:55.029 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips 
+Jun 18 14:37:55.029 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips
+Jun 18 14:37:55.030 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/fd847f58-8d62-4e53-b682-f6ea48f72de6 
+Jun 18 14:37:55.030 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/fd847f58-8d62-4e53-b682-f6ea48f72de6
+Jun 18 14:37:55.030 HYPERVISOR: exec_cmd: vm create Ílhavo 5 c3725 
+Jun 18 14:37:55.030 VM: VM Ílhavo created.
+Jun 18 14:37:55.030 HYPERVISOR: exec_cmd: vm set_con_tcp_port Ílhavo 5004 
+Jun 18 14:37:55.030 HYPERVISOR: exec_cmd: c3725 get_mac_addr Ílhavo 
+Jun 18 14:37:55.031 HYPERVISOR: exec_cmd: vm set_disk0 Ílhavo 0 
+Jun 18 14:37:55.031 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:37:55.031 HYPERVISOR: exec_cmd: vm set_idle_pc Ílhavo 0x60a68ca0 
+Jun 18 14:37:55.031 HYPERVISOR: exec_cmd: vm set_ios Ílhavo /home/diogojorge/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 18 14:37:55.032 HYPERVISOR: exec_cmd: c3725 set_mac_addr Ílhavo c205.172f.0000 
+Jun 18 14:37:55.032 HYPERVISOR: exec_cmd: vm set_nvram Ílhavo 256 
+Jun 18 14:37:55.032 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:37:55.032 HYPERVISOR: exec_cmd: vm slot_add_binding Ílhavo 1 0 NM-1FE-TX 
+Jun 18 14:37:55.032 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:37:55.033 HYPERVISOR: exec_cmd: vm slot_add_binding Ílhavo 2 0 NM-1FE-TX 
+Jun 18 14:37:56.790 HYPERVISOR: exec_cmd: nio create_udp udp-c7dda442-0939-46b6-ba08-27ed74051b54 10044 127.0.0.1 10045 
+Jun 18 14:37:57.004 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Ílhavo 0 0 udp-c7dda442-0939-46b6-ba08-27ed74051b54 
+Jun 18 14:37:57.005 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:37:57.219 HYPERVISOR: exec_cmd: nio create_udp udp-9bc952da-b38d-4662-8c43-1721353f7c4b 10068 127.0.0.1 10069 
+Jun 18 14:37:57.220 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Ílhavo 0 1 udp-9bc952da-b38d-4662-8c43-1721353f7c4b 
+Jun 18 14:37:57.220 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:38:16.365 HYPERVISOR: exec_cmd: vm set_ghost_status Ílhavo 2 
+Jun 18 14:38:16.367 HYPERVISOR: exec_cmd: vm set_ghost_file Ílhavo /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:38:16.368 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:38:16.369 HYPERVISOR: exec_cmd: vm set_config Ílhavo configs/i5_startup-config.cfg 
+Jun 18 14:38:16.369 HYPERVISOR: exec_cmd: vm start Ílhavo 
+Jun 18 14:38:47.512 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:38:47.549 HYPERVISOR: exec_cmd: vm set_idle_pc_online Ílhavo 0 0x60a68e70 
+Jun 18 14:38:55.876 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:38:55.876 HYPERVISOR: exec_cmd: vm stop Ílhavo 
+Jun 18 14:38:55.988 VM: VM Ílhavo shutdown.
+Jun 18 14:38:55.989 HYPERVISOR: exec_cmd: vm extract_config Ílhavo 
+Jun 18 14:50:47.782 HYPERVISOR: exec_cmd: nio create_udp udp-2dcd5787-eade-49e1-a53f-4dcb068f54df 10092 127.0.0.1 10093 
+Jun 18 14:50:47.784 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Ílhavo 1 0 udp-2dcd5787-eade-49e1-a53f-4dcb068f54df 
+Jun 18 14:50:47.784 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:55:58.286 HYPERVISOR: exec_cmd: vm set_ghost_status Ílhavo 2 
+Jun 18 14:55:58.287 HYPERVISOR: exec_cmd: vm set_ghost_file Ílhavo /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Projetos/NetworkProject2/SecondProjectV1.gns3/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 18 14:55:58.287 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 14:55:58.287 HYPERVISOR: exec_cmd: vm set_config Ílhavo configs/i5_startup-config.cfg 
+Jun 18 14:55:58.287 HYPERVISOR: exec_cmd: vm start Ílhavo 
+Jun 18 16:38:17.476 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 16:38:17.477 HYPERVISOR: exec_cmd: vm stop Ílhavo 
+Jun 18 16:38:17.588 VM: VM Ílhavo shutdown.
+Jun 18 16:38:17.589 HYPERVISOR: exec_cmd: vm extract_config Ílhavo 
+Jun 18 19:35:05.537 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 19:35:05.537 HYPERVISOR: exec_cmd: vm extract_config Ílhavo 
+Jun 18 19:35:05.742 HYPERVISOR: exec_cmd: vm get_status Ílhavo 
+Jun 18 19:35:05.745 HYPERVISOR: exec_cmd: vm extract_config Ílhavo 
+Jun 18 19:35:05.748 HYPERVISOR: exec_cmd: vm delete Ílhavo 
+Jun 18 19:35:05.749 VM: VM Ílhavo destroyed.
+Jun 18 19:35:05.750 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 18 19:35:06.089 HYPERVISOR: Stopped.
+Jun 18 19:35:06.089 GENERAL: reset done.
